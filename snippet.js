@@ -36,7 +36,7 @@ console.save = function (data, filename) {
     data = JSON.stringify(data, undefined, 4);
   }
 
-  var blob = new Blob([data], {
+  let blob = new Blob([data], {
       type: "text/json",
     }),
     e = document.createEvent("MouseEvents"),
@@ -65,4 +65,4 @@ console.save = function (data, filename) {
   a.dispatchEvent(e);
 };
 
-console.save(matches.join("\n"), "filenamemmm");
+console.save(matches.join("\n"), "export.txt");
