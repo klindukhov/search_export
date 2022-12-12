@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Search_export",
+  "version": "0.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./icons/search.png",
+      "32": "./icons/search.png",
+      "48": "./icons/search.png",
+      "128": "./icons/search.png"
+    }
+  },
+  "description": "An extension for exporting search result into csv or txt files",
+  "icons": {
+    "16": "./icons/search.png",
+    "32": "./icons/search.png",
+    "48": "./icons/search.png",
+    "128": "./icons/search.png"
+  }
+}
