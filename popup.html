@@ -9,7 +9,18 @@
   </head>
   <link rel="stylesheet" href="popup.css" />
   <body>
-    <input class="regexInput" id="regexInput" placeholder="regex" type="text" />
+    <span>
+      /<input
+        class="regexInput"
+        id="regexInput"
+        placeholder="regex"
+        type="text"
+      />/g
+    </span>
+    <div class="columns-div">
+      <div>Columns:</div>
+      <input class="columnsInput" id="columnsInput" value="10" type="number" />
+    </div>
     <div class="exportButtons">
       <button class="typeButton" id="exportAsCSV">csv</button>
       <button class="typeButton" id="exportAsTXT">txt</button>

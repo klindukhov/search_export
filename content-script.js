@@ -50,7 +50,7 @@ chrome.runtime.onMessage.addListener(function (request) {
   };
 
   const type = request.type ?? "csv";
-  const regex = request.regex ?? /npm/;
+  const regex = request.regex ?? "npm";
   const columns = request.columns ?? 10;
   exportValues(type, regex, columns);
 });
