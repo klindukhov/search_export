@@ -41,8 +41,6 @@ chrome.runtime.onMessage.addListener(function (request) {
   };
 
   const exportValues = (type, regex, columns) => {
-    alert(request.type);
-
     const matches = getMatches(regex);
     if (!columns) columns = 10;
     let formattedMatches = constructCSV(matches, columns);

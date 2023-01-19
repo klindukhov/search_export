@@ -12,11 +12,16 @@ body {
   height: 2rem;
   width: 13rem;
   display: inline-block;
-  border-color: transparent;
-  
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.regexInput:focus {
+  outline: none;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgb(0, 0, 0);
 }
 .columnsInput {
-  height: 2rem;
+  height: 1.5rem;
   width: 4rem;
 }
 .columns-div {
